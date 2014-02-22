@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484868C018AFA72E005F0E8D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484868BF18AFA72E005F0E8D /* Social.framework */; };
+		489E32D118AFA26E00BA5CFD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32D018AFA26E00BA5CFD /* Parse.framework */; };
+		489E32D318AFA2F600BA5CFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32D218AFA2F600BA5CFD /* AudioToolbox.framework */; };
+		489E32D518AFA30200BA5CFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32D418AFA30200BA5CFD /* CFNetwork.framework */; };
+		489E32D718AFA31C00BA5CFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32D618AFA31C00BA5CFD /* CoreLocation.framework */; };
+		489E32D918AFA32800BA5CFD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32D818AFA32800BA5CFD /* libz.dylib */; };
+		489E32DB18AFA33200BA5CFD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32DA18AFA33200BA5CFD /* MobileCoreServices.framework */; };
+		489E32DD18AFA33C00BA5CFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32DC18AFA33C00BA5CFD /* QuartzCore.framework */; };
+		489E32DF18AFA34600BA5CFD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32DE18AFA34600BA5CFD /* Security.framework */; };
+		489E32E118AFA36F00BA5CFD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32E018AFA36F00BA5CFD /* StoreKit.framework */; };
+		489E32E318AFA37E00BA5CFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E32E218AFA37E00BA5CFD /* SystemConfiguration.framework */; };
 		48B4003918AF9D3500069C02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B4003818AF9D3500069C02 /* Foundation.framework */; };
 		48B4003B18AF9D3500069C02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B4003A18AF9D3500069C02 /* CoreGraphics.framework */; };
 		48B4003D18AF9D3500069C02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B4003C18AF9D3500069C02 /* UIKit.framework */; };
@@ -22,6 +33,10 @@
 		48B4005D18AF9D3500069C02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B4003C18AF9D3500069C02 /* UIKit.framework */; };
 		48B4006518AF9D3500069C02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48B4006318AF9D3500069C02 /* InfoPlist.strings */; };
 		48B4006718AF9D3500069C02 /* HeartBitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B4006618AF9D3500069C02 /* HeartBitTests.m */; };
+		48B7941718B7710A00DF3CFE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B7941618B7710A00DF3CFE /* CoreBluetooth.framework */; };
+		48B7941A18B7715600DF3CFE /* ORHearBeatMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B7941918B7715600DF3CFE /* ORHearBeatMonitoring.m */; };
+		48B7941B18B7715600DF3CFE /* ORHearBeatMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B7941918B7715600DF3CFE /* ORHearBeatMonitoring.m */; };
+		C87045D3F87A47B995017DA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3609275324314F9C99030DD6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3609275324314F9C99030DD6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		484868BF18AFA72E005F0E8D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		489E32D018AFA26E00BA5CFD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		489E32D218AFA2F600BA5CFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		489E32D418AFA30200BA5CFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		489E32D618AFA31C00BA5CFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		489E32D818AFA32800BA5CFD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		489E32DA18AFA33200BA5CFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		489E32DC18AFA33C00BA5CFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		489E32DE18AFA34600BA5CFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		489E32E018AFA36F00BA5CFD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		489E32E218AFA37E00BA5CFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		48B4003518AF9D3500069C02 /* HeartBit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B4003818AF9D3500069C02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48B4003A18AF9D3500069C02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +83,10 @@
 		48B4006218AF9D3500069C02 /* HeartBitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartBitTests-Info.plist"; sourceTree = "<group>"; };
 		48B4006418AF9D3500069C02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48B4006618AF9D3500069C02 /* HeartBitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartBitTests.m; sourceTree = "<group>"; };
+		48B7941618B7710A00DF3CFE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		48B7941818B7715600DF3CFE /* ORHearBeatMonitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHearBeatMonitoring.h; sourceTree = "<group>"; };
+		48B7941918B7715600DF3CFE /* ORHearBeatMonitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHearBeatMonitoring.m; sourceTree = "<group>"; };
+		970A1868E64742AEBD922C32 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +94,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B7941718B7710A00DF3CFE /* CoreBluetooth.framework in Frameworks */,
+				484868C018AFA72E005F0E8D /* Social.framework in Frameworks */,
+				489E32E318AFA37E00BA5CFD /* SystemConfiguration.framework in Frameworks */,
+				489E32E118AFA36F00BA5CFD /* StoreKit.framework in Frameworks */,
+				489E32DF18AFA34600BA5CFD /* Security.framework in Frameworks */,
+				489E32DD18AFA33C00BA5CFD /* QuartzCore.framework in Frameworks */,
+				489E32DB18AFA33200BA5CFD /* MobileCoreServices.framework in Frameworks */,
+				489E32D918AFA32800BA5CFD /* libz.dylib in Frameworks */,
+				489E32D718AFA31C00BA5CFD /* CoreLocation.framework in Frameworks */,
 				48B4003B18AF9D3500069C02 /* CoreGraphics.framework in Frameworks */,
+				489E32D518AFA30200BA5CFD /* CFNetwork.framework in Frameworks */,
+				489E32D318AFA2F600BA5CFD /* AudioToolbox.framework in Frameworks */,
 				48B4003D18AF9D3500069C02 /* UIKit.framework in Frameworks */,
 				48B4003918AF9D3500069C02 /* Foundation.framework in Frameworks */,
+				C87045D3F87A47B995017DA3 /* libPods.a in Frameworks */,
+				489E32D118AFA26E00BA5CFD /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +133,7 @@
 				48B4006018AF9D3500069C02 /* HeartBitTests */,
 				48B4003718AF9D3500069C02 /* Frameworks */,
 				48B4003618AF9D3500069C02 /* Products */,
+				970A1868E64742AEBD922C32 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +149,23 @@
 		48B4003718AF9D3500069C02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48B7941618B7710A00DF3CFE /* CoreBluetooth.framework */,
+				484868BF18AFA72E005F0E8D /* Social.framework */,
+				489E32E218AFA37E00BA5CFD /* SystemConfiguration.framework */,
+				489E32E018AFA36F00BA5CFD /* StoreKit.framework */,
+				489E32DE18AFA34600BA5CFD /* Security.framework */,
+				489E32DC18AFA33C00BA5CFD /* QuartzCore.framework */,
+				489E32DA18AFA33200BA5CFD /* MobileCoreServices.framework */,
+				489E32D818AFA32800BA5CFD /* libz.dylib */,
+				489E32D618AFA31C00BA5CFD /* CoreLocation.framework */,
+				489E32D418AFA30200BA5CFD /* CFNetwork.framework */,
+				489E32D218AFA2F600BA5CFD /* AudioToolbox.framework */,
+				489E32D018AFA26E00BA5CFD /* Parse.framework */,
 				48B4003818AF9D3500069C02 /* Foundation.framework */,
 				48B4003A18AF9D3500069C02 /* CoreGraphics.framework */,
 				48B4003C18AF9D3500069C02 /* UIKit.framework */,
 				48B4005A18AF9D3500069C02 /* XCTest.framework */,
+				3609275324314F9C99030DD6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +177,8 @@
 				48B4004818AF9D3500069C02 /* ORAppDelegate.m */,
 				48B4004A18AF9D3500069C02 /* Main.storyboard */,
 				48B4004D18AF9D3500069C02 /* ORFirstViewController.h */,
+				48B7941818B7715600DF3CFE /* ORHearBeatMonitoring.h */,
+				48B7941918B7715600DF3CFE /* ORHearBeatMonitoring.m */,
 				48B4004E18AF9D3500069C02 /* ORFirstViewController.m */,
 				48B4005018AF9D3500069C02 /* ORSecondViewController.h */,
 				48B4005118AF9D3500069C02 /* ORSecondViewController.m */,
@@ -164,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48B4006A18AF9D3500069C02 /* Build configuration list for PBXNativeTarget "HeartBit" */;
 			buildPhases = (
+				953C17ACB30D4E4D8A368E42 /* Check Pods Manifest.lock */,
 				48B4003118AF9D3500069C02 /* Sources */,
 				48B4003218AF9D3500069C02 /* Frameworks */,
 				48B4003318AF9D3500069C02 /* Resources */,
+				183A6BB559644475B1DEF19F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +312,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		183A6BB559644475B1DEF19F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953C17ACB30D4E4D8A368E42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48B4003118AF9D3500069C02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +354,7 @@
 				48B4004918AF9D3500069C02 /* ORAppDelegate.m in Sources */,
 				48B4004F18AF9D3500069C02 /* ORFirstViewController.m in Sources */,
 				48B4005218AF9D3500069C02 /* ORSecondViewController.m in Sources */,
+				48B7941A18B7715600DF3CFE /* ORHearBeatMonitoring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B7941B18B7715600DF3CFE /* ORHearBeatMonitoring.m in Sources */,
 				48B4006718AF9D3500069C02 /* HeartBitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,12 +479,29 @@
 		};
 		48B4006B18AF9D3500069C02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970A1868E64742AEBD922C32 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/csabacsordas/Development/R&D/HeartBit",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeartBit/HeartBit-Prefix.pch";
 				INFOPLIST_FILE = "HeartBit/HeartBit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,12 +509,29 @@
 		};
 		48B4006C18AF9D3500069C02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970A1868E64742AEBD922C32 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/csabacsordas/Development/R&D/HeartBit",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeartBit/HeartBit-Prefix.pch";
 				INFOPLIST_FILE = "HeartBit/HeartBit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +598,7 @@
 				48B4006C18AF9D3500069C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48B4006D18AF9D3500069C02 /* Build configuration list for PBXNativeTarget "HeartBitTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +607,7 @@
 				48B4006F18AF9D3500069C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
